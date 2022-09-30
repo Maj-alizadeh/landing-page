@@ -4,6 +4,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
+p {
+    margin: 0;
+    padding: 0;
+}
 ul {
     display: flex;
     gap: 15px;
@@ -21,6 +26,43 @@ a {
     justify-content: space-between;
     background-color:#1f2937 ;
     color: #f9faf8;
-    padding: 10px 200px;
+    padding: 20px 200px;
     font-size: 24px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+    gap: 50px;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.hero-left {
+    width: 450px;
+}
+.hero-image {
+    width: 600px;
+    height: 290px;
+    object-fit: cover;
+}
+.hero-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.hero-secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.sign-up {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 7px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+
 }
